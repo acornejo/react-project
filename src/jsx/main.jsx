@@ -12,3 +12,5 @@ var PRODUCTS = [
 
 React.render(<FilterableProductTable products={PRODUCTS} />,
              document.getElementById('content'));
+
+window.React = React;

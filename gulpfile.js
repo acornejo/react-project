@@ -26,7 +26,7 @@ var htmlFiles = 'src/**/*.html';
 var jsFiles = 'src/**/*.js';
 var jsxFiles = 'src/**/*.jsx';
 var scssFiles = 'src/**/*.scss';
-var scssIncludes = ['./node_modules/bootstrap-sass/assets/stylesheets', './node_modules/font-awesome/scss'];
+var scssIncludes = ['./node_modules/bootstrap-sass/assets/stylesheets'];
 
 gulp.task('html', function () {
   return gulp.src(htmlFiles)
